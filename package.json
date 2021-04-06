@@ -7,7 +7,8 @@
     "compile": "nearleyc ./grammar.ne",
     "compile-large": "nearleyc ./large-grammar.ne",
     "compile-large-2": "nearleyc ./large-grammar-2.ne",
-    "compile-large-3": "nearleyc ./large-grammar-3.ne"
+    "compile-large-3": "nearleyc ./large-grammar-3.ne",
+    "compile-large-4": "nearleyc ./large-grammar-4.ne"
   },
   "author": "",
   "license": "ISC",
