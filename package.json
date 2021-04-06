@@ -1,0 +1,15 @@
+{
+  "name": "nearley-2.20.1-large-grammar-file-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "nearleyc ./grammar.ne",
+    "compile-large": "nearleyc ./large-grammar.ne"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nearley": "^2.20.1"
+  }
+}
