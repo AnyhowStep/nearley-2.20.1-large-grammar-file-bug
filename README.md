@@ -4,6 +4,7 @@ https://github.com/kach/nearley/issues/358#issuecomment-714082295
 1. `npm install`
 2. `npm run compile` (It should work OK)
 3. `npm run compile-large` (It should work OK, but it fails)
+4. `npm run compile-large-2` (It should work OK, but it fails)
 
 -----
 
@@ -30,6 +31,9 @@ Identifier ->
 -----
 
 If you remove one repetition of the above snippet from `large-grammar.ne`, and run `compile-large` again,
+it will work okay.
+
+If you remove one repetition of the above snippet from `large-grammar-2.ne`, and run `compile-large-2` again,
 it will work okay.
 
 This still happens with nearley 2.20.1.
